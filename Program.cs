@@ -9,7 +9,7 @@ namespace split_join
     {
         static void Main(string[] args)
         {
-
+            Console.WriteLine("Введите фразу :");
             string d = Console.ReadLine();
             string[] words = d.Split(' ');//расщепляет на слова
             Console.WriteLine("В обратном порядке:");
